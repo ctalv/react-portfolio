@@ -8,6 +8,7 @@ import Navigation from './Navigation';
 export default function Header() {
     return (
         <div>
+            <h1>Claire Alverson</h1>
             <Navigation/>
         </div>
     );
