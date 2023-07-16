@@ -12,35 +12,35 @@ import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';
 
 export default function App() {
-    // sets the About page as the default page
-    const [currentPage, setCurrentPage] = useState('About')
+    // // sets the About page as the default page
+    // const [currentPage, setCurrentPage] = useState('About')
 
-    // This method renders the appropriate page component based on the value of currentPage state.
-    const renderPage = () => {
-        if (currentPage === 'About') {
-            return <About />;
-        }
-        if (currentPage === 'Portfolio') {
-            return <Portfolio />;
-        }
-        if (currentPage === 'Resume') {
-            return <Resume />;
-        }
-        return <Contact />;
-    };
+    // // This method renders the appropriate page component based on the value of currentPage state.
+    // const renderPage = () => {
+    //     if (currentPage === 'About') {
+    //         return <About />;
+    //     }
+    //     if (currentPage === 'Portfolio') {
+    //         return <Portfolio />;
+    //     }
+    //     if (currentPage === 'Resume') {
+    //         return <Resume />;
+    //     }
+    //     return <Contact />;
+    // };
 
-    const handlePageChange = (page) => setCurrentPage(page);
+    // const handlePageChange = (page) => setCurrentPage(page);
 
 
     return (
         <div>
             {/* We are passing the currentPage state and handlePageChange function as props to the NavTabs component. */}
-            <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Header/>
             {/* The renderPage function is called here to render the appropriate page component based on the value of currentPage state. */}
             {renderPage()}
             {/* <Navigation/> do i need this? is this where I pass in page logic? */}
             {/* <Project/> use conditional logic for page rendering */}
-            <Footer />
+            <Footer/>
         </div>
     )
 }
