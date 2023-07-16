@@ -1,15 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 // import components
 import Header from './components/Header';
 import Navigation from './components/Navigation'; // child of Header
 import Project from './components/Project';
 import Footer from './components/Footer';
 
-// import pages
-import About from './components/pages/About';
-import Contact from './components/pages/Contact';
-import Portfolio from './components/pages/Portfolio';
-import Resume from './components/pages/Resume';
+
 
 export default function App() {
     // // sets the About page as the default page
@@ -37,7 +33,7 @@ export default function App() {
             {/* We are passing the currentPage state and handlePageChange function as props to the NavTabs component. */}
             <Header/>
             {/* The renderPage function is called here to render the appropriate page component based on the value of currentPage state. */}
-            {renderPage()}
+            
             {/* <Navigation/> do i need this? is this where I pass in page logic? */}
             {/* <Project/> use conditional logic for page rendering */}
             <Footer/>

@@ -2,8 +2,14 @@
 
 // parent of Navigation
 
-import React from 'react';
+import React, { useState } from 'react';
 import Navigation from './Navigation';
+
+// import pages
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 export default function Header() {
         // sets the About page as the default page
@@ -30,7 +36,6 @@ export default function Header() {
             <h1>Claire Alverson</h1>
             <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
-
         </div>
     );
 }
