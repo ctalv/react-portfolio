@@ -4,6 +4,7 @@
 // parent of project component
 
 import React from 'react';
+import projects from '../Project'
 
 export default function Portfolio() {
   return (
