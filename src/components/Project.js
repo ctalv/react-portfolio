@@ -15,3 +15,5 @@ const projects = [
         alt: 'Laptop with monitors displaying code; Credit: Joshua Aragon via Unsplash'
     }
 ]
+
+export default projects;

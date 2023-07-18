@@ -11,6 +11,8 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
+import projects from './Project'
+
 export default function Header() {
         // sets the About page as the default page
         const [currentPage, setCurrentPage] = useState('About')
