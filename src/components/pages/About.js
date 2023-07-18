@@ -26,7 +26,7 @@ const styles = {
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h2>About Me</h2>
       <div style={styles.profilePicStyle}>
       <img src={headshot} style={styles.profilePicImgStyle} />
       </div>

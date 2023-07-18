@@ -47,9 +47,10 @@ const handleFormSubmit = (e) => {
 
   return (
     <div>
-      <h1>Contact</h1>
+      <h2>Contact</h2>
       <p>
-        clairetalverson@gmail.com 979-900-5446
+        clairetalverson@gmail.com 
+        979-900-5446
       </p>
 
       <form className="form">
