@@ -10,7 +10,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
         <ul className="nav nav-tabs">
             <li className="nav-item">
                 <a
-                    href="#abpit"
+                    href="#about"
                     onClick={() => handlePageChange('About')}
                     // This is a ternary operator. It checks if the value of 'currentPage' is equal to 'Home'. If true, it assigns the value 'nav-link active' to the className, indicating that the tab should be active. Otherwise, it assigns the value 'nav-link', indicating an inactive tab.
                     className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
