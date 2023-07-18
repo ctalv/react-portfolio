@@ -5,10 +5,22 @@
 
 import React from 'react';
 
+const styles = {
+    navBarStyle: {
+    //   background: 'red',
+    },
+    navTabStyle: {
+        padding: '10px',
+        display: 'inline',
+        fontSize: '20px'
+    },
+
+  };
+
 export default function Navigation({ currentPage, handlePageChange }) {
     return (
-        <ul className="nav nav-tabs">
-            <li className="nav-item">
+        <ul style={styles.navBarStyle} className="nav nav-tabs">
+            <li style={styles.navTabStyle} className="nav-item">
                 <a
                     href="#about"
                     onClick={() => handlePageChange('About')}
@@ -18,7 +30,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
                     About
                 </a>
             </li>
-            <li className="nav-item">
+            <li style={styles.navTabStyle} className="nav-item">
                 <a
                     href="#portfolio"
                     onClick={() => handlePageChange('Portfolio')}
@@ -28,7 +40,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
                     Portfolio
                 </a>
             </li>
-            <li className="nav-item">
+            <li style={styles.navTabStyle} className="nav-item">
                 <a
                     href="#resume"
                     onClick={() => handlePageChange('Resume')}
@@ -38,7 +50,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
                     Resume
                 </a>
             </li>
-            <li className="nav-item">
+            <li style={styles.navTabStyle} className="nav-item">
                 <a
                     href="#contact"
                     // This logic checks if the value of 'currentPage' is equal to 'Contact'. If true, it assigns the value 'nav-link active' to the className, indicating that the tab should be active. Otherwise, it assigns the value 'nav-link', indicating an inactive tab.
