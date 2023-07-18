@@ -7,6 +7,7 @@ import React from 'react';
 import projects from '../Project'
 
 export default function Portfolio() {
+
   return (
     <div>
       <h1>Portfolio</h1>
