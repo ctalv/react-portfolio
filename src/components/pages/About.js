@@ -2,12 +2,13 @@
 // const src = require('../../assets/images/headshot.JPG')
 
 import React from 'react';
+import headshot from '../../assets/images/headshot.JPG' 
 
 export default function About() {
   return (
     <div>
       <h1>About Page</h1>
-      <img src="../assets/images/headshot.JPG" />
+      <img src={headshot} />
       <p>
         My passion has always been science. From a young age, I spent all my time outside
         exploring the natural world. As I grew older, I began developing an interest in 
