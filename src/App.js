@@ -1,32 +1,9 @@
 import React from 'react';
 // import components
 import Header from './components/Header';
-import Navigation from './components/Navigation'; // child of Header
-import Project from './components/Project';
 import Footer from './components/Footer';
 
-
-
 export default function App() {
-    // // sets the About page as the default page
-    // const [currentPage, setCurrentPage] = useState('About')
-
-    // // This method renders the appropriate page component based on the value of currentPage state.
-    // const renderPage = () => {
-    //     if (currentPage === 'About') {
-    //         return <About />;
-    //     }
-    //     if (currentPage === 'Portfolio') {
-    //         return <Portfolio />;
-    //     }
-    //     if (currentPage === 'Resume') {
-    //         return <Resume />;
-    //     }
-    //     return <Contact />;
-    // };
-
-    // const handlePageChange = (page) => setCurrentPage(page);
-
 
     return (
         <div>
