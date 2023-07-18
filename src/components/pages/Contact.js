@@ -3,7 +3,7 @@
 // for now, just email and phone links
 
 import React, { useState } from 'react';
-import { validateEmail } from '../../utils/helpers';
+// import { validateEmail } from '../../utils/helpers';
 
 
 export default function Contact() {
@@ -47,11 +47,13 @@ const handleFormSubmit = (e) => {
 
   return (
     <div>
-      <h2>Contact</h2>
-      <p>
+      <h2>Contact Me</h2>
+      <h4>
         clairetalverson@gmail.com 
+      </h4>
+      <h4>
         979-900-5446
-      </p>
+      </h4>
 
       <form className="form">
         <input

@@ -18,6 +18,8 @@ const styles = {
         justifyContent: 'space-between',
         marginRight: '20px',
         marginLeft: '20px',
+        flexBasis: 'auto',
+        // background: '#287253',
     },
     navTabStyle: {
         padding: '10px',
@@ -25,7 +27,7 @@ const styles = {
         fontSize: '20px'
     },
     pageStyle: {
-        display: 'flex'
+        // display: 'flex'
     }
 };
 
