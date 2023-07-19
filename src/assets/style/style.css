@@ -1,0 +1,13 @@
+/* @media screen and (max-width: 1400px) {
+    .content {
+        display: block;
+    }
+
+} */
+
+@media screen and (min-width: 560px) {
+    header {
+        display: block;
+    }
+
+}
