@@ -1,13 +1,13 @@
 {
   "main.css": "/react-portfolio/static/css/main.2bf3c37a.chunk.css",
-  "main.js": "/react-portfolio/static/js/main.ef18f44c.chunk.js",
-  "main.js.map": "/react-portfolio/static/js/main.ef18f44c.chunk.js.map",
+  "main.js": "/react-portfolio/static/js/main.c2d8c5a1.chunk.js",
+  "main.js.map": "/react-portfolio/static/js/main.c2d8c5a1.chunk.js.map",
   "runtime~main.js": "/react-portfolio/static/js/runtime~main.f974a8eb.js",
   "runtime~main.js.map": "/react-portfolio/static/js/runtime~main.f974a8eb.js.map",
-  "static/js/2.267763ac.chunk.js": "/react-portfolio/static/js/2.267763ac.chunk.js",
-  "static/js/2.267763ac.chunk.js.map": "/react-portfolio/static/js/2.267763ac.chunk.js.map",
+  "static/js/2.9b756a1a.chunk.js": "/react-portfolio/static/js/2.9b756a1a.chunk.js",
+  "static/js/2.9b756a1a.chunk.js.map": "/react-portfolio/static/js/2.9b756a1a.chunk.js.map",
   "index.html": "/react-portfolio/index.html",
-  "precache-manifest.6f9ecda3f87024fb9652e9ed1feb282e.js": "/react-portfolio/precache-manifest.6f9ecda3f87024fb9652e9ed1feb282e.js",
+  "precache-manifest.11b51aa6d4cbc0c41e79ed78cc060ffa.js": "/react-portfolio/precache-manifest.11b51aa6d4cbc0c41e79ed78cc060ffa.js",
   "service-worker.js": "/react-portfolio/service-worker.js",
   "static/css/main.2bf3c37a.chunk.css.map": "/react-portfolio/static/css/main.2bf3c37a.chunk.css.map",
   "static/media/code-markus-spiske-iar-afB0QQw-unsplash.jpg": "/react-portfolio/static/media/code-markus-spiske-iar-afB0QQw-unsplash.1e773c76.jpg",
@@ -15,5 +15,6 @@
   "static/media/headshot.JPG": "/react-portfolio/static/media/headshot.4dc015b3.JPG",
   "static/media/project_1.JPG": "/react-portfolio/static/media/project_1.3fb3a162.JPG",
   "static/media/project_2.JPG": "/react-portfolio/static/media/project_2.8f72e62d.JPG",
+  "static/media/project_3.jpg": "/react-portfolio/static/media/project_3.ba8746e2.jpg",
   "static/media/resume.pdf": "/react-portfolio/static/media/resume.3b75d1b0.pdf"
 }
